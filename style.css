@@ -1,0 +1,46 @@
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+background-image: url(image/tt) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  gap: 50px;
+}
+
+h2{
+  color:black;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.time{
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+ /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;*/
+  font-size:80px;
+  text-align: center;
+  line-height: 180px;
+}
+
+.clock{
+  font-family:digital-7;
+  color:black;
+  position: relative;
+}
+/*.clock::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  filter: blur(40px);
+}*/
